@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Rubik Distressed', cursive;
+}
+body {
+     font-size: 14px;
+     font-weight: 500;
+     
+}
+a{
+     text-decoration: none;
+}
+li{
+     list-style: none;
+}
+.btn { 
+     color: white;
+     background-color: #0047FF;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.btn-success{
+     width: 438px;
+     height: 56px;
+     border-radius: 10px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 22px;
+     outline: none;
+     border: none;
+}
+.btn-success:hover{
+     background-color: #00278a;
+}
+/*------*/
+.container{
+     width: 1340px;
+     margin: 0 auto;
+     padding: 8px 16px;
+
+}
+.row{
+     display: flex;
+}
+
+/*----------------*/
+.box_wrapper{
+     justify-content: space-evenly;
+     align-items: center;
+     flex-direction: column;
+     display: flex;
+     height: 100vh;
+     width: 100%;
+}
+.reg_title{
+     display: block;
+     width: 100%;
+     font-family: 'Gilroy';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 48px;
+     line-height: 59px;
+
+     text-align: center;
+     color: #000000;
+}
+.link {
+     display: block;
+     font-family: 'Gilroy';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 22px;
+
+     color: #0047FF;
+     text-decoration: underline;
+}
+.form{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 450px;
+     height: 380px;
+     justify-content: flex-start;
+}
+.inp{
+     background: #FFFFFF;
+     border: 1px solid #000000;
+     border-radius: 10px;
+     width: 438px;
+     height: 56px;
+     color: #000000;
+     padding: 10px;
+     font-size: 16px;
+     margin-bottom: 8px;
+     font-family: 'Times New Roman', Times, serif;
+}
+label{
+     text-align: start;
+     display: block;
+     width: 100%;
+     padding-left: 15px;
+     font-size: 14px;
+     color: #000000;
+}
+/* Home Page */
+.header{
+     display: block;
+     width: 100%;
+     height: 80px;
+     background-color: #F0F0F0;
+
+}
+.nav{
+     justify-content: space-between;
+     align-items: baseline;
+     flex-wrap: wrap;
+     height: 65px;
+}
+.nav_list{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-evenly;
+     width: 20%;
+     height: 100%;
+     padding: 8px 16px;
+}
+.nav_item{
+     font-style: normal;
+     font-size: 16px;
+     line-height: 19px;
+     
+     color: #000000;
+
+}
+.nav_item a{
+     font-family: 'Times New Roman', Times, serif;
+     color: #000000;
+     font-weight: 700;
+}
+.log_out{
+     transform: rotate(90deg);
+}
+/*-----------*/
+.home_wrapper{
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+     height: 100%;
+
+}
+.header_home{
+     display: block;
+     width: 100%;
+     height: 150px;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: space-evenly;
+}
+.header_home_title{
+     font-family: 'Gilroy';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 48px;
+     line-height: 59px;
+
+     color: #000000;
+}
+.user_name{
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 900;
+     color: blue;
+}
+.header_home a{
+     font-family: 'Gilroy';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 22px;
+
+     color: #0047FF;
+}
+/*-----------*/
+.card_home{
+     width: 100%;
+     padding: 20px 16px;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: space-between;
+     position: relative;
+    
+}
+.card_home_title{
+     font-family: 'Gilroy';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 29px;
+
+     color: #000000;
+}
+.card_home_list{
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     justify-content: flex-start;
+     flex-wrap: wrap;
+     min-width: 100%;
+     height: 180px;
+     margin: 20px 0;
+     padding: 0;
+}
+.card_home_item{
+     width: 282px;
+     height: 160px;
+     background: linear-gradient(84.37deg, #D7816A 2.27%, #BD4F6C 92.26%);
+     border-radius: 15px;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     padding: 19px 23px;
+     color: #FFFFFF;
+     margin: 10px 0;
+     margin-right: 24px;
+}
+.card_home_item .card_title {
+     font-weight: 500;
+     font-size: 20px;
+     font-family: 'Courier New', Courier, monospace;
+}
+.card_home_item .card_type {
+     font-weight: 600;
+     font-size: 16px;
+     font-family: 'Courier New', Courier, monospace;
+}
+/*----------*/
+.transaction_home{
+     display: block;
+     width: 100%;
+     height: 100%;
+     padding: 8px 16px;
+     text-align: start;
+
+}
+.transaction_home_table{
+     display: block;
+     width: 100%;
+     height: 300px;
+     overflow: hidden;
+     margin: 10px 0;
+}
+table {
+     width: 100%;
+     border-collapse: collapse;
+     margin: 20px auto;
+}
+th {
+     font-family: 'Gilroy';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 17px;
+     padding: 10px;
+     border-bottom: 1px solid #B9C0D1;
+     text-align: left;
+
+     color: #B9C0D1;
+}
+td{
+     padding: 10px;
+     border-bottom: 1px solid #B9C0D1;
+     text-align: left;
+     font-family: 'Gilroy';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 17px;
+     color: #000000;
+}
+/*---------------*/
+.my_big_title{
+     font-family: 'Gilroy';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 48px;
+     line-height: 59px;
+
+     color: #000000;
+}
+.height {
+     height: 100% !important;
+}
+/*-------*/
+.card{
+     background: #FFFFFF;
+     border: 1px solid #000000;
+     border-radius: 10px;
+     width: 438px;
+     height: 56px;
+     color: #000000;
+     padding: 15px;
+     font-size: 16px;
+     margin-bottom: 8px;
+     font-family: 'Times New Roman', Times, serif;
+     background-position-x: 100%;
+     background-position-y: 15px;
+     appearance: none;
+}

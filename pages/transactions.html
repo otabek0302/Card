@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="../index.css">
+     <title>Home</title>
+</head>
+<body>
+     <header class="header">
+          <div class="container">
+               <div class="nav row">
+                    <ul class="nav_list">
+                         <li class="nav_item"><a href="./home.html"> Home</a></li>
+                         <li class="nav_item"><a href="./cards.html"> My Card</a></li>
+                         <li class="nav_item"><a href="./transactions.html"> My transactions</a></li>
+                    </ul> 
+                    <ul class="nav_list">
+                         <li class="nav_item"><a href="#" class="user_email"></a></li>
+                         <li class="nav_item"><a class="log_out link" href="reg.html">&#128228;</a></li>
+                    </ul>
+               </div>
+          </div>
+     </header>
+     <div class="container">
+          <div class="home_wrapper row">
+               <div class="transaction_home">
+                    <h4 class="my_big_title">Last Transactions</h4>
+                    <div class="transaction_home_table height">
+                         <table class="transactions">
+                              <thead>
+                                   <tr>
+                                        <th>Id</th>
+                                        <th>Отправлено с кошелька</th>
+                                        <th>Категория </th>
+                                        <th>Сумма транзации</th>
+                                        <th>Когда</th>
+                                   </tr>
+                              </thead>
+                              <tbody class="tbody">
+                                   
+                              </tbody>
+                         </table>
+                         <a href="./add_tran.html" class="btn btn-success">Add </a>
+                    </div>
+               </div>
+          </div>
+     </div>
+<script type="module" src="../modules/transactions.js"></script>
+</body>
+</html>
